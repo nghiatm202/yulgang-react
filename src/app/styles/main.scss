@@ -1,0 +1,33 @@
+// Import theme variables styles
+@import "./theme-variables.scss";
+
+// Import reset styles
+@import "./reset.scss";
+
+// Import Sign up page styles
+@import "./sign-up.scss";
+
+// Import Login page styles
+@import "./login.scss";
+
+// Import Home page styles
+@import "../screens/Home/style.scss";
+
+// Import UIInput components styles
+@import "../../features/auth/components/UIInput/style.scss";
+
+// Import Card auth components styles
+@import "../../features/auth/components/CardAuth/style.scss";
+
+// Import Button components styles
+@import "../../common/components/Button/style.scss";
+
+// Import Footer components styles
+@import "../../common/components/Footer/style.scss";
+
+// Import Header components styles
+@import "../../common/components/Header/style.scss";
+
+// Import Slick carousel styles
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";

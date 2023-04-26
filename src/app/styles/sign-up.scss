@@ -1,0 +1,25 @@
+.signUpPage {
+  height: 100%;
+  background-image: url("../assets/bg-login.jpg");
+  background-position: center;
+}
+
+.signUpInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .signUpForm {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-bottom: 8px;
+
+    select {
+      padding: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      outline: none;
+    }
+  }
+}

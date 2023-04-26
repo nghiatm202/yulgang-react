@@ -1,0 +1,32 @@
+.btnAuth {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.btnAuth.blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btnAuth.green {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btnAuth.gray {
+  background-color: #6c757d;
+  color: #fff;
+}
